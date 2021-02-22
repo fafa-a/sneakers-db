@@ -23,6 +23,6 @@ defineProps({
 
 <style scoped>
 img {
-  width: 35vw;
+  width: 30rem;
 }
 </style>
