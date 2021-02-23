@@ -3,6 +3,7 @@ class Sneaker {
     brandname,
     category,
     colorway,
+    description,
     gender,
     imageLink,
     name,
@@ -10,15 +11,17 @@ class Sneaker {
     releaseDate,
     retailPrice,
     shoe,
-    description,
+    shortDescription,
     sizes,
     sku,
+    storeLink,
     urlKey,
     url
   ) {
     this.brandname = brandname;
     this.category = category;
     this.colorway = colorway;
+    this.description = description;
     this.gender = gender;
     this.imageLink = imageLink;
     this.name = name;
@@ -26,9 +29,10 @@ class Sneaker {
     this.releaseDate = releaseDate;
     this.retailPrice = retailPrice;
     this.shoe = shoe;
-    this.description = description;
     this.sizes = sizes;
+    this.shortDescription = shortDescription;
     this.sku = sku;
+    this.storeLink = storeLink;
     this.urlKey = urlKey;
     this.url = url;
   }

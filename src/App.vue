@@ -5,5 +5,3 @@
 <script setup>
 import TheBanner from "./components/TheBanner.vue";
 </script>
-
-<style></style>
